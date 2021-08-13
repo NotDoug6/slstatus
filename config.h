@@ -65,6 +65,7 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
+	{separator, "|" },
 	{ battery_perc, "BAT0: %3s%%", "BAT0"},
 	{separator, "|" },
 	{ battery_perc, "BAT1: %3s%%", "BAT1"},
